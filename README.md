@@ -1,6 +1,7 @@
 # Temporary Email made with PHP
 
 You can check its live version at [billieiscute.xyz](https://billieiscute.xyz/temp/)
+
 PHP-Temporary-Email is self-hosted temporary email library. You can use it on any website that has PHP IMAP
 
 ## Installation

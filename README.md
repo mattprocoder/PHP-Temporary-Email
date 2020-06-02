@@ -39,4 +39,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)
+[GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html)

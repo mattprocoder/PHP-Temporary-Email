@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Billie is cute || Temporary E-Mail</title>
+</head>
+<body style="background-color: #1a1a1a;" onload="CheckEmailOnLoad()">
+    <div class="header" style="text-align:center;margin-bottom: 2rem;margin-top: 1rem;">
+        <div style="font-size:5rem;font-weight:bolder;line-height: 0.85;">
+            Billie<span style="font-size:7rem;color: rgb(255, 0, 157);">IS</span>Cute
+        </div>
+        <div>
+            <span style="font-size: 2vw;">Temporary <span style="color: rgb(255, 0, 157);font-weight: bolder;">E-mail</span></span>
+        </div>
+    </div>
+    <div style="text-align:center;">
+        <span class="change-on-hover" onclick="CopyEmailAddress()">E-mail address (click to copy)</span>
+        <div class="input-group" style="width: 25%;margin-left: 36.9%;" onclick="CopyEmailAddress()">
+            <input style="text-align: center;" type="text" class="form-control" value="default@billieiscute.xyz" id="mail-field" onchange="ChangeEmailAddress()">
+        </div>
+    </div>
+    <div style="width:50%;margin-left:24%;margin-top:1rem;">
+        <table class="table table-dark" style="background-color: #111111;" id="inbox">
+            <thead>
+                <tr style="color: rgb(255, 0, 157);text-align: center;font-weight: bolder;border:solid #111111 3px;border-radius: 10rem;">
+                    <th scope="col">From</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Preview</th>
+                </tr>
+            </thead>
+            <tbody style="text-align: center;">
+                <tr onclick="window.open('./message/?id=$message_id', '_blank')"><th scope=\"row\">$sender_address</th><td>$email->subject</td><td>$message_preview</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="assets/js/script.js"></script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="b848fd4a4b7a31ff3ab93689-|49" defer=""></script>
+</body>
+</html>

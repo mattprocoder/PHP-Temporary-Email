@@ -9,7 +9,7 @@ PHP-Temporary-Email is self-hosted temporary email library. You can use it on an
 Clone this repositary
 
 ```bash
-git clone https://github.com/xxx/xx
+git clone https://github.com/mattprocoder/PHP-Temporary-Email
 ```
 Install IMAP for php (Linux)
 ```bash
